@@ -4,7 +4,7 @@ import Image from "../Image/plan.png";
 
 function Plan() {
   return (
-    <div className="bg-gray-50 py-5 px-20">
+    <div className="bg-gray-50 py-5 px-1 m-1 lg:px-20 sm:p-10">
       <div className="text-center space-y-7 pt-20">
         <h1 className="font-bold text-2xl">Choose Your Plan</h1>
         <p className="text-sm">
@@ -12,12 +12,12 @@ function Plan() {
           and cheerfully.
         </p>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {planDetails.map((data) => (
           <div
             key={data.id}
-            className="bg-white border-2 border-solid border-gray-300 m-10 p-10 rounded-lg 
-            group hover:border-red-500 transition duration-300 ease-in-out"
+            className="bg-white border-2 border-solid border-gray-300 m-1 my-5 p-10 rounded-lg 
+            group hover:border-red-500 transition duration-300 ease-in-out lg:m-4 lg:p-5 md:m-4 md:p-6"
           >
             <div className="flex justify-center">
               <img src={Image} alt="plan box" />

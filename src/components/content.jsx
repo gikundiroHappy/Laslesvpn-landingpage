@@ -3,14 +3,21 @@ import Image from "../Image/person.png";
 
 function Content() {
   return (
-    <div className="grid grid-cols-2 py-10 mx-20">
+    <div className="grid md:grid-cols-2 lg:py-10 lg:mx-20 sm:grid-cols-1">
       <div className="space-y-10 p-5 pt-10">
-        <h1 className="font-semibold text-5xl leading-normal">
+        <h1 className="font-semibold text-3xl leading-normal lg:text:5xl">
           Want anything to be easy with
           <span className="font-extrabold"> LaslesVPN</span>
         </h1>
+        <div className="md:hidden">
+          <img
+            src={Image}
+            alt="A Person on a laptop"
+            className="h-full w-full"
+          />
+        </div>
         <p className="text-sm leading-loose">
-          Provide a network for all yoyr needs with ease and fun using Lasles
+          Provide a network for all your needs with ease and fun using Lasles
           VPN discover interesting features from us
         </p>
         <div>
@@ -22,7 +29,7 @@ function Content() {
           </a>
         </div>
       </div>
-      <div className="bg-red-100">
+      <div className="hidden md:block ">
         <img src={Image} alt="A Person on a laptop" className="h-full w-full" />
       </div>
     </div>

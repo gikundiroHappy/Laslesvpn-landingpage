@@ -3,15 +3,18 @@ import Image from "../Image/personn2.png";
 
 function Features() {
   return (
-    <div className="grid grid-cols-2 py-20 mx-20">
-      <div className="col-span-1 flex justify-center items-center">
+    <div className="grid md:grid-cols-2 py-10 mx-1 sm:grid-cols-1 lg:mx-20">
+      <div className="col-span-1 flex justify-center items-center hidden md:block">
         <img src={Image} alt="A person" className="h-full " />
       </div>
-      <div className="space-y-8 p-5 pt-10 col-span-1 pl-20 pt-30 ">
+      <div className="space-y-8 p-5 pt-0 col-span-1 pl-10 pt-30 sm:pl-20 sm:pt-10">
         <h1 className="font-semibold text-2xl leading-normal">
           We provide Many <br />
           Features You Can Use
         </h1>
+        <div className="col-span-1 flex justify-center items-center md:hidden">
+          <img src={Image} alt="A person" className="h-full " />
+        </div>
         <p className="text-sm leading-loose">
           You can explore the features that we provide with fun and have their
           own functions each feature.
