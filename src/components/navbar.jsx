@@ -36,7 +36,7 @@ function Navbar() {
       </div>
       <div className="flex justify-end items-center mr-5 text-lg text-red-500 lg:hidden sm:mr-1">
         <span>
-          <i class="fa fa-bars"></i>
+          <i className="fa fa-bars"></i>
         </span>
       </div>
     </div>

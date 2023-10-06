@@ -62,3 +62,36 @@ export const planDetails = [
     btn: "select",
   },
 ];
+
+export const customerDetail = [
+  {
+    id: 1,
+    image:
+      "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name: "Viezh Robert",
+    location: "Warsaw,Poland",
+    number: "4.5",
+    star: "fa-star",
+    description: `"Wow... I am very happy to use this VPN it turned out to be more than my expectactions and so far there have been no problems. LaslesVPN always the best."`,
+  },
+  {
+    id: 2,
+    image:
+      "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name: "Viezh Robert",
+    location: "Warsaw,Poland",
+    number: "4.5",
+    star: "fa-star",
+    description: `"Wow... I am very happy to use this VPN it turned out to be more than my expectactions and so far there have been no problems. LaslesVPN always the best."`,
+  },
+  {
+    id: 3,
+    image:
+      "https://images.pexels.com/photos/901236/pexels-photo-901236.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name: "Viezh Robert",
+    location: "Warsaw,Poland",
+    number: "4.5",
+    star: "fa-star",
+    description: `"Wow... I am very happy to use this VPN it turned out to be more than my expectactions and so far there have been no problems. LaslesVPN always the best."`,
+  },
+];
