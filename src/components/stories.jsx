@@ -26,9 +26,9 @@ function Stories() {
                 <img
                   src={detail.image}
                   alt="a person"
-                  className="w-full h-full sm:rounded-full sm:w-32 h-32 object-cover"
+                  className="w-full h-full sm:rounded-full sm:w-20 h-20 object-cover"
                 />
-                <div className="mt-3 text-sm sm:mt-10">
+                <div className="mt-3 text-sm sm:mt-3">
                   <h2 className="font-bold ">{detail.name}</h2>
                   <p>{detail.location}</p>
                 </div>
