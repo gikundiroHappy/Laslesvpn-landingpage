@@ -8,11 +8,6 @@
     <br />
     <a href="https://laslesvpn-happy.netlify.app/"><strong>View Demo</strong></a>
   </p>
-   <p align="center">
-   Cv_Builder used to help people do their resume.
-    <br />
-    <a href="https://main--amali-cv-builder.netlify.app/"><strong>View Demo</strong></a>
-  </p>
 </div>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
