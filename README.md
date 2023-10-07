@@ -1,9 +1,9 @@
 # LaslesVPN_Landing page
 
-<div id="top">LaslesVPN</div>
+<div id="top"></div>
 
 
-<h3 align="center"></h3>
+<h3 align="center">LaslesVPN</h3>
   <p align="center">
    
     <br />
